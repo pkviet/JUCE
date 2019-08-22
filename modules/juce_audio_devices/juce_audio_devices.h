@@ -84,7 +84,7 @@
     info about this.
 */
 #ifndef JUCE_ASIO
- #define JUCE_ASIO 0
+ #define JUCE_ASIO 1
 #endif
 
 /** Config: JUCE_WASAPI
@@ -92,7 +92,7 @@
     JUCE_WASAPI_EXCLUSIVE flag.
 */
 #ifndef JUCE_WASAPI
- #define JUCE_WASAPI 1
+ #define JUCE_WASAPI 0
 #endif
 
 /** Config: JUCE_WASAPI_EXCLUSIVE
@@ -107,14 +107,14 @@
     Enables DirectSound audio (MS Windows only).
 */
 #ifndef JUCE_DIRECTSOUND
- #define JUCE_DIRECTSOUND 1
+ #define JUCE_DIRECTSOUND 0
 #endif
 
 /** Config: JUCE_ALSA
     Enables ALSA audio devices (Linux only).
 */
 #ifndef JUCE_ALSA
- #define JUCE_ALSA 1
+ #define JUCE_ALSA 0
 #endif
 
 /** Config: JUCE_JACK
@@ -156,7 +156,7 @@
 */
 #ifndef JUCE_USE_ANDROID_OPENSLES
  #if ! JUCE_USE_ANDROID_OBOE && JUCE_ANDROID_API_VERSION >= 9
-  #define JUCE_USE_ANDROID_OPENSLES 1
+  #define JUCE_USE_ANDROID_OPENSLES 0
  #else
   #define JUCE_USE_ANDROID_OPENSLES 0
  #endif

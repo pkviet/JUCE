@@ -1,5 +1,7 @@
 ![alt text](https://d30pueezughrda.cloudfront.net/juce/JUCE_banner.png "JUCE")
 
+NOTE: this fork of JUCE integrates the openAsio SDK which enables asio support with GPL v2+ compatibility.
+
 JUCE is an open-source cross-platform C++ application framework used for rapidly
 developing high quality desktop and mobile applications, including VST, AU (and AUv3),
 RTAS and AAX audio plug-ins. JUCE can be easily integrated with existing projects or can
