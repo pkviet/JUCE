@@ -143,7 +143,7 @@
         comes with the SDK. (Only about a handful of the SDK header files are actually
         needed - so to simplify things, you could just copy these into your JUCE directory).
   */
-  #include <iasiodrv.h>
+  #include <juce_audio_devices/openasio_sdk/asio-wrapper.hpp>
   #include "native/juce_ASIO_windows.cpp"
  #endif
 
