@@ -567,6 +567,7 @@ enum
  and https://github.com/WeAreROLI/JUCE/blob/master/modules/juce_audio_devices/native/juce_win32_ASIO.cpp#ln469
 	kAsioGetInternalBufferSamples = ??? from https://github.com/Mizunagi/AudioSystem/blob/e7e449b273872715fd2dcabf86ab7ca9fa458a9b/html/asio_8h.html#ln300
 */
+	kAsioCanReportOverload = 0x24042012,
 	kAsioGetInternalBufferSamples = 0x25042012,
 };
 
